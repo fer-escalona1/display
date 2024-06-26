@@ -1,0 +1,44 @@
+/*selector de tipo etiqueta = nombreEtiqueta{}*/
+/*selector de tipo clase = .nombreClase{}*/
+/*selector de tipo id = #nombreID{}*/
+
+body{
+    background-color: rgb(243, 206, 232);
+}
+
+.ejemplo{
+    width: 1000px;
+    height: 500px;
+    background-color:beige;
+}
+
+.displayBlock{
+    display: block;
+    background-color: pink;
+}
+
+.displayBlockConTamanio{
+    display: block;
+    background-color: pink;
+    width: 100px;
+    height: 100px;
+}
+
+.displayInLine{
+    display: inline;
+    background-color: orange;   
+}
+
+.displayInLineConTamanio{
+    display: inline;
+    background-color: orange;
+    width: 100px;
+    height: 100px;
+}
+
+.displayInLineBlock{
+    display: inline-block;
+    background-color: yellow;
+    width: 100px;
+    height: 100px;
+}

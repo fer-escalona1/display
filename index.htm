@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Display</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        
+    </header>
+    <main>
+        <h1>
+            Display: lo que mostramos en la pantalla
+        </h1>
+        <article id="displayNone">
+            <h2>Display None</h2>
+            <p>Este tipo de display nos permite dejar de visaulizar contenido dentro del sitio.</p>
+            <p>Cuando lo usamos, las etiquetas dejan de verse pero el código sigue ahí.</p>
+        </article>
+        <article id="displayBock">
+            <h2>Display Block</h2>
+            <p>
+                El elemento genera un cuadro de elemento del bloque.
+            </p>
+            <p>
+                Significa que mi bloque (recuerda que todo en HTML es un bloque), ocupa un espacio disponible de izquierda a derecha. o todo el renglón.
+            </p>
+            <figure class="ejemplo">
+                <h1 class="displayBlock">Display Block</h1>
+                <h1 class="displayBlock">Display Block 2</h1>
+                <h1 class="displayBlock">Display Block 3</h1>
+            </figure>
+        </article>
+        <article id="displaInLine">
+            <h2>Display InLine</h2>
+            <p>
+                El elemento genera uno o más cuadros de elemento en línea.
+            </p>
+            <p>
+                Significa que el contenedor o bloque se adapta al ancho de su contenido hijo.
+            </p>
+            <figure class="ejemplo">
+                <h1 class="displayInLine">Display in line</h1>
+                <h1 class="displayInLine">Display in line 2</h1>
+                <h1 class="displayInLine">Display in line 3</h1>
+            </figure>
+        </article>
+        <article id="displaInLine-Block">
+            <h2>Display Block-InLine</h2>
+            <p>
+                Si ponemos tamaño a un Display Block, funciona, pero sigue ocupando todo un renglón.
+            </p>
+            <p>
+                Si le ponemos tamaño a un display inLine ignora las propiedades de alto y ancho.
+            </p>
+            <figure class="ejemplo">
+                <h1 class="displayBlockConTamanio">Display Block con tamaño</h1>
+                <h1 class="displayInLineConTamanio">Display in Line con tamaño</h1>
+            </figure>
+            <p>
+                Esto puede ser problemático. Pero con InLine-Block podemos fusionar ambas.
+            </p>
+            <figure class="ejemplo">
+                <h1 class="displayInLineBlock">Display Block con tamaño</h1>
+                <h1 class="displayInLineBlock">Display in Line con tamaño</h1>
+            </figure>
+
+        </article>
+    </main>
+    <footer>
+
+    </footer>
+</body>
+</html>
